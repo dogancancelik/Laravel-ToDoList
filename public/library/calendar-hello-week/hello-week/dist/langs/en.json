@@ -1,0 +1,59 @@
+{
+    "days": [
+        "Pazar",
+        "Pazartesi",
+        "Salı",
+        "Çarşamba",
+        "Perşembe",
+        "Cuma",
+        "Cumartesi"
+    ],
+    "daysShort": [
+        "Pz",
+        "Pzt",
+        "Sa",
+        "Çrş",
+        "Prş",
+        "Cu",
+        "Ct"
+    ],
+    "daysMin": [
+        "Pz",
+        "Pzt",
+        "Sa",
+        "Çrş",
+        "Prş",
+        "Cu",
+        "Ct"
+    ],
+    "months": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım",
+        "Aralık"
+    ],
+    "monthsShort": [
+        "Ock",
+        "Şbt",
+        "Mar",
+        "Nis",
+        "May",
+        "Haz",
+        "Tem",
+        "Ağs",
+        "Eyl",
+        "Eki",
+        "Kas",
+        "Ara"
+    ],
+    "today": "Bugün",
+    "clear": "Temizle"
+}
