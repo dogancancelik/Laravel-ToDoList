@@ -7,6 +7,12 @@
 .font-size-1-5-r{
     font-size: 1.5rem;
 }
+.color-white{
+    color: #fff;
+}
+.color-black{
+    color: #000;
+}
 .margin-left-10{
     margin-left: 10px;
 }
@@ -24,4 +30,19 @@
 }
 .display-none{
     display: none;
+}
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+.click-task{
+    width: 50px;
+}
+.task-operations{
+    text-align: right;
+    width: 100px;
+}
+.task-operations a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
 }

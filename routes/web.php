@@ -13,10 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'TaskController@index')->name('home');
+Route::get('/task-table', 'TaskController@taskTable')->name('task.table');
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/', 'TaskController@createTask')->name('create.task');
+Route::post('/change-task', 'TaskController@changeTaskStatus')->name('change.task');
+Route::post('/delete-task', 'TaskController@deleteTask')->name('delete.task');
+Route::post('/edit-task', 'TaskController@editTask')->name('edit.task');
+Route::post('/update-task', 'TaskController@updateTask')->name('update.task');
